@@ -1,9 +1,6 @@
-Hi my name is rexynn. 
+Hi my name is rexynn. I'm learning how to code starting on front-end development. i started learning (for real) December 2024. this is from front-end mentor.
 
-The tools and resources i used are:
--google
--chatgpt
--youtube
+The tools and resources i used are chatgpt, youtube, and pinterest
 
 at first, i palced a color coded borders on each container so i won't get confused and i can better visualize the containers when coding.
 
