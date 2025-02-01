@@ -1,0 +1,75 @@
+body{ /*parent of container*/
+    background-color: hsl(212, 45%, 89%);
+    margin:0;
+
+    /* Center content vertically and horizontally */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Makes sure body fills the full viewport height */
+
+
+/* Default: Mobile-first (375px and smaller screens) */
+    font-size: 16px;
+    max-width: 375px;  /* Limits content width */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+}
+
+/* Tablet (768px and above) */
+@media (min-width: 768px) {
+    body {
+        max-width: 90%; /* Adjust for tablets */
+    }
+}
+
+/* Desktop (1440px and above) */
+@media (min-width: 1440px) {
+    body {
+        max-width: 1440px; /* Expands for large screens */
+    }
+}
+
+.container1 { /*green parent of content*/
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+
+    justify-content: center;
+}
+
+.content { /*child*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between ;
+    max-width: 300px;
+    max-height: 1000px;
+
+}
+
+.container1 img{
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+h1, p {
+    font-family: outfit;
+    font-size: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+p{
+    color: hsl(216, 15%, 48%);
+}
+
+h1{
+    color: hsl(218, 44%, 22%);
+}
